@@ -1,0 +1,25 @@
+# Ignore all .idea folder files
+.idea/
+
+# Exclude the following .idea folder files
+!.idea/codeStyles
+!.idea/inspectionProfiles
+!.idea/misc.xml
+!.idea/modules.xml
+!.idea/runConfigurations.xml
+!.idea/vcs.xml
+
+# Exclude module files
+*.iml
+
+# Other common ignores
+/out/
+*.log
+*.jar
+*.war
+*.ear
+*.class
+*.project
+*.classpath
+*.settings/
+*.factorypath
