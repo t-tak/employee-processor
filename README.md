@@ -77,17 +77,3 @@ This Java-based application processes employee data to filter and identify emplo
     ```sh
     mvn test
 
-## Contributing
-
-Contributions are welcome! Please fork the repository and submit a pull request with your changes.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-
-For any questions or feedback, please open an issue on GitHub.
-
----
-
-This README file provides a clear and detailed overview of the project, including descriptions of each class, installation instructions, and guidelines for running the application and tests.
