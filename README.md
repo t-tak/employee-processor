@@ -50,7 +50,7 @@ This Java-based application processes employee data to filter and identify emplo
 
 ### Prerequisites
 - Java 8 or higher
-- Maven or Gradle for dependency management
+- Maven for dependency management
 
 ### Installation
 
@@ -63,9 +63,6 @@ This Java-based application processes employee data to filter and identify emplo
 2. **Build the project**:
     ```sh
     mvn clean install
-    # or if you are using Gradle
-    gradle build
-    ```
 
 ### Running the Application
 
@@ -79,9 +76,6 @@ This Java-based application processes employee data to filter and identify emplo
 1. **Execute unit tests**:
     ```sh
     mvn test
-    # or if you are using Gradle
-    gradle test
-    ```
 
 ## Contributing
 
