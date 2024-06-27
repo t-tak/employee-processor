@@ -41,7 +41,6 @@ This application demonstrates how to parse JSON data, retrieve employee details,
 
 ## Project Structure
 
-```
 src/
 ├── main/
 │   ├── java/
@@ -65,7 +64,7 @@ src/
                 └── app/
                     └── employee/
                         └── EmployeeProcessorTest.java
-```
+
 
 ## Dependencies
 
