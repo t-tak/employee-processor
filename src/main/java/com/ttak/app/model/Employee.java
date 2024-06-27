@@ -1,7 +1,7 @@
 package com.ttak.app.model;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 public class Employee {
@@ -9,15 +9,15 @@ public class Employee {
 
     private String lastName;
 
-    private Date birthday;
+    private LocalDate birthday;
 
     private List<Color> favoriteColors = new ArrayList<>();
 
-    public Date getBirthday() {
+    public LocalDate getBirthday() {
         return birthday;
     }
 
-    public void setBirthday(Date birthday) {
+    public void setBirthday(LocalDate birthday) {
         this.birthday = birthday;
     }
 

@@ -9,9 +9,9 @@ import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.Arrays;
-import java.util.Date;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -76,10 +76,9 @@ class EmployeeProcessorTest {
      *
      * @param dateString the date in string format
      * @return the Date object
-     * @throws ParseException if the date string cannot be parsed
      */
-    private static Date createDate(String dateString) throws ParseException {
-        SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
-        return formatter.parse(dateString);
+    private static LocalDate createDate(String dateString)  {
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+        return  LocalDate.parse(dateString, formatter);
     }
 }
